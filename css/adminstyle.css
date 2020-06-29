@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #2f4050;
+}
+.navbar-nav li {
+	font-weight: bold;
+	font-family: Bitter,Georgia,Times,"Times New Roman,serif";
+	/*font-size: 1.2em;*/
+}
+.line {
+	margin-top: -20px;
+}
+.col-sm-10 {
+	background-color: #ffffff;
+}
+#side_menue a {
+	color: #9fb1c2;
+}
+#side_menue .active a {
+	color: #ffffff;
+	background-color: #27AAE1;
+	font-weight: bold;
+}
+#side_menue a:hover {
+	color: #ffffff;
+	background-color: green;
+	font-weight: bold;
+	display: block;
+}
+#footer {
+	background-color: #1a1a1a;
+	padding-bottom: 35px;
+	padding-top: 35px;
+	border-bottom: 3px solid #129CF3;
+
+
+}

@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.os{
+    background: gray;
+    color: red;
+    margin: 5px
+}
+.a1 {
+     background: black;
+    color: blue;
+    margin: 5px
+    
+}
+input.default{
+    background: url('../image/header.jpg') 0 0 no-repeat;
+}
+.a2 {
+     background: yellow;
+    color: red;
+    margin: 5px
+    
+}
+.warning {
+    background: azure;
+    color: black;
+    margin: 5px
+}
+.a3 {
+    background: red;
+    color: black;
+    margin: 5px
+}
+.test {
+    height:2000px;
+    background-color: aqua;
+    line-height: 200px
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: cursive;
+
+}
+
+.carousel-caption {
+    bottom: 20px;
+    background-color: rgba(3,3,3,0.3);
+    padding-left: 20px;
+    padding-right: 20px
+}
+.carousel-indicators {
+    bottom: 2px;
+}
+.carousel-indicators li { 
+  height: 15px;
+    width: 15px;
+    border: 1px solid #EEE
+}
+
+.carousel-indicators .active {
+    width: 17px;
+    height: 17px;
+    background: #E41B17
+}
+.about .lead {
+    color: aqua; 
+    font-size: 25px;
+    margin-top: 15px
+}
+.about h1 span {
+    color: red
+}
+.features {
+    background: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.features .feat p {
+    line-height: 2em;
+}
+.features .feat glyphicon {
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #888
+}
+.features h1 {
+    margin-bottom: 50px
+}
+.testmonials {
+    padding-top: 50px;
+    padding-top: 50px
+}
+.testmonials h1 {
+    font-weight: bold
+}
+.testmonials .lead {
+    
+}
+.testmonials span {
+    font-size: 18px;
+    font-weight: bold;
+    color: red
+}
+.testmonials carousel-inner {
+    min-height: 160px
+}
+.testmonials .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px
+}
+.testmonials .carousel-indicators li {
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px
+}
+.testmonials .carousel-indicators li.active {
+    width: 8%;
+    height: 8%;
+    opacity: 1;
+    background: none;
+   
+}
+.testmonials .carousel-indicators li img {
+    max-width: 100%
+}
+.price_table {
+    background: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+.price_table h1 {
+    margin-bottom: 40px
+}
+.price_table .price_box {
+background: #FFF;
+padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 5px
+}
+.price_table .price_box h2 {
+    margin: 5px 0 15px
+}
+.price_table .price_box:hover p {
+    -webkit-transform:scale(1.1,1.1)rotate(360deg);
+    -moz-transform:scale(1.1,1.1)rotate(360deg);
+    -o-transform:scale(1.1,1.1)rotate(360deg);
+     transform:scale(1.1,1.1)rotate(360deg);
+}
+.price_table .price_box p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background: #F3F3F3;
+    border-radius: 50%;
+    line-height: 100px;
+    -webkit-transition-duration:0.7s;
+    -moz-transition-duration:0.7s;
+    -o-transition-duration:0.7s;
+    transition-duration:0.7s
+    
+}
+.price_table .price_box ul {
+line-height:25px;
+    font-size: 18px
+}
+.price_table .price_box a {
+    margin-bottom: 5px
+}
+.our_team {
+    background: url('../image/header.jpg')no-repeat center center fixed;
+    min-height: 600px
+}
+.our_team .team {
+    background: rgba(2,2,2,0.8);
+    color: #FFF;
+    min-height: 600px;
+    padding-bottom: 40px;
+    padding-top: 40px
+        
+}
+.our_team h1 {
+    margin-bottom: 60px
+}
+.subscribe {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #EEE
+}
+.subscribe h1 {
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px
+
+}
+.subscribe p {
+    margin-bottom: 30px
+
+}
+.subscribe .form-controler {
+    border-radius: 0;
+    width:300px;
+    margin-right: -5px
+}
+.subscribe button {
+    border-radius: 0
+}
+.foo {
+    color: red;
+    font-size: 1.2em;
+
+}
